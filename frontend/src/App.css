@@ -1,0 +1,50 @@
+/* App.css */
+.App {
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+/* Forms aur Cards ka style */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #166fe5;
+}
+
+.post-card {
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
